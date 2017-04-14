@@ -51,7 +51,7 @@ public class TileEntityInput extends TileEntityClusterElement implements IRedsto
         }
 
         oldPowered = isPowered;
-        System.out.print(worldObj.getRedstonePower(pos, null));
+        //System.out.print(worldObj.getRedstonePower(pos, null));
     }
 
     @Override
