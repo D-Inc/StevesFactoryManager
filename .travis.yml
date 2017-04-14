@@ -15,7 +15,7 @@ cache:
 script: "./gradlew build test"
 install: 
   - "chmod +x gradlew"
-  - "./gradlew setupCIWorkspace"
+  - "./gradlew setupDevWorkspace"
 
 deploy:
   provider: releases
