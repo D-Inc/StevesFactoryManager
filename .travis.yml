@@ -12,7 +12,7 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
-script: "./gradlew build test"
+script: "./gradlew build"
 install: 
   - "chmod +x gradlew"
   - "./gradlew setupDevWorkspace"
